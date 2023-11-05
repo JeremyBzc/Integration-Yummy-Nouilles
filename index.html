@@ -20,20 +20,30 @@
       </nav>
     </header>
     <main>
-      <section class="hero_header">
-        <div>
-          <h1>Yummy Nouilles</h1>
-          <p>Les nouilles les plus <span>yummy</span> de tout Paris</p>
-          <a href="contact.html">Click & Collect</a>
+      <section class="hero">
+        <div class="hero__titleContainer">
+          <h1 class="hero__title">Yummy Nouilles</h1>
+          <p class="hero__subtitle">
+            Les nouilles les plus <span class="color-highlight">yummy</span> de
+            tout Paris
+          </p>
+          <a class="cta" href="contact.html">Click & Collect</a>
         </div>
-        <img src="assets/Logo.svg" alt="Logo Yummy Nouilles" />
+        <img
+          class="hero__icon"
+          src="assets/Logo.svg"
+          alt="Logo Yummy Nouilles"
+        />
       </section>
-      <section class="addresses">
-        <h2>Nos adresses</h2>
-        <div class="caroussel">
-          <div class="restaurant">
-            <img src="assets/img/restaurant/yummy_lancry.jpg" />
-            <p>
+      <section class="address">
+        <h2 class="address__title">Nos adresses</h2>
+        <div class="address__carousel">
+          <div>
+            <img
+              src="assets/img/restaurant/yummy_lancry.jpg"
+              class="address__img"
+            />
+            <p class="address__info">
               <strong>Yummy Noodle</strong>
               <br />
               185 rue du Lancry
@@ -41,9 +51,12 @@
               75010 Paris
             </p>
           </div>
-          <div class="restaurant">
-            <img src="assets/img/restaurant/yummy_saint_guillaume.jpg" />
-            <p>
+          <div>
+            <img
+              src="assets/img/restaurant/yummy_saint_guillaume.jpg"
+              class="address__img"
+            />
+            <p class="address__info">
               <strong>Yu Noodle My</strong>
               <br />
               350 rue Saint-Guillaume
@@ -51,9 +64,12 @@
               75007 Paris
             </p>
           </div>
-          <div class="restaurant">
-            <img src="assets/img/restaurant/yummy_maire.jpg" />
-            <p>
+          <div>
+            <img
+              src="assets/img/restaurant/yummy_maire.jpg"
+              class="address__img"
+            />
+            <p class="address__info">
               <strong>Les Yummy Nouilles</strong>
               <br />
               208 rue au Maire
@@ -62,14 +78,14 @@
             </p>
           </div>
         </div>
-        <div class="red-banner">
-          <p>Commandez maintenant !</p>
-          <a href="contact.html">Click & Collect</a>
-        </div>
       </section>
+      <div class="redBanner">
+        <p class="redBanner__title">Commandez maintenant !</p>
+        <a class="cta" href="contact.html">Click & Collect</a>
+      </div>
       <section class="expertise">
-        <h2>Notre savoir-faire</h2>
-        <p>
+        <h2 class="expertise__title">Notre savoir-faire</h2>
+        <p class="expertise__text">
           Depuis près de 10 ans maintenant, nous partageons avec vous les
           meilleures recettes. Nos plats ont tous été conçus, et affinés au fil
           des années et des goûts. Nous vous apportons le meilleur de l’Asie de
@@ -80,26 +96,46 @@
           vous régalerez en dégustant nos plats.
         </p>
       </section>
-      <section class="social">
-        <h2>Retrouvez-nous sur les réseaux sociaux</h2>
-        <div>
-          <img src="assets/img/social/cat.jpg" alt="Image de chat Japonais" />
+      <section class="socialMedia">
+        <h2 class="socialMedia__title">
+          Retrouvez-nous sur les réseaux sociaux
+        </h2>
+        <div class="socialMedia__carousel">
+          <img
+            src="assets/img/social/cat.jpg"
+            alt="Image de chat Japonais"
+            class="socialMedia__img"
+          />
           <img
             src="assets/img/social/noodles_bowl.jpg"
             alt="Photo de bol de nouilles"
+            class="socialMedia__img"
           />
-          <img src="assets/img/social/bao.jpg" alt="Photo panier vapeur Bao" />
-          <img src="assets/img/social/chef.jpg" alt="Photo de chef cuisinier" />
+          <img
+            src="assets/img/social/bao.jpg"
+            alt="Photo panier vapeur Bao"
+            class="socialMedia__img"
+          />
+          <img
+            src="assets/img/social/chef.jpg"
+            alt="Photo de chef cuisinier"
+            class="socialMedia__img"
+          />
           <img
             src="assets/img/social/noodles.jpg"
             alt="Photo de nouilles en cercle"
+            class="socialMedia__img"
           />
-          <img src="assets/img/social/beer.jpg" alt="Photo de verre de bière" />
+          <img
+            src="assets/img/social/beer.jpg"
+            alt="Photo de verre de bière"
+            class="socialMedia__img"
+          />
         </div>
       </section>
-      <section class="contact">
-        <h2>Contactez-nous</h2>
-        <p>
+      <section class="contactInfo">
+        <h2 class="contactInfo__title">Contactez-nous</h2>
+        <p class="contactInfo__text">
           Vous souhaitez nous poser une question, nous faire un feeback, ou tout
           simplement nous contacter ?
           <br />
@@ -108,17 +144,26 @@
         </p>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <a href="https://www.instagram.com/yummy_nouilles/">
-        <img src="assets/icons/icon_instagram.svg" alt="Logo Instagram" />
+        <img
+          src="assets/icons/icon_instagram.svg"
+          alt="Logo Instagram"
+          class="footer__icon"
+        />
       </a>
       <a href="https://www.facebook.com/yummy_nouilles/">
-        <img src="assets/icons/icon_facebook.svg" alt="Logo Facebook" />
+        <img
+          src="assets/icons/icon_facebook.svg"
+          alt="Logo Facebook"
+          class="footer__icon"
+        />
       </a>
       <a href="https://www.google.com/search?q=yummy+nouilles">
         <img
           src="assets/icons/icon_maps-and-flags.svg"
           alt="Logo Google Maps"
+          class="footer__icon"
         />
       </a>
     </footer>
