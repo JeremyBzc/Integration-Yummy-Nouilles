@@ -80,3 +80,18 @@ h2 {
 .text-highlight {
   font-weight: var(--body-highlight-font-weight);
 }
+
+@media (max-width: 768px) {
+  :root {
+    /* Mobile Variables */
+    --body-font-size: 1rem;
+    --body-highlight-font-size: 1rem;
+    --header-font-size: 2.5rem;
+    --title-font-size: 1.25rem;
+
+    --body-line-height: 1.25rem;
+    --body-highlight-line-height: 1.25rem;
+    --header-line-height: 3rem;
+    --title-line-height: 1.5rem;
+  }
+}
