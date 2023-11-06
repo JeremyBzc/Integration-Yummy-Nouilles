@@ -13,6 +13,11 @@
   margin-left: 3.25rem;
 }
 
+.footer__icon:hover {
+  transform: scale(1.15);
+  transition: 0.2s;
+}
+
 @media (max-width: 768px) {
   .footer {
     justify-content: center;
