@@ -48,6 +48,11 @@
   border-radius: 5%;
 }
 
+.address__img:hover {
+  box-shadow: 0 0 10px #d2483d;
+  cursor: pointer;
+}
+
 .address__info {
   margin: 0.5rem 0 0 0;
 }
@@ -90,6 +95,17 @@
   height: 15.5rem;
   object-fit: cover;
   border-radius: 5%;
+}
+
+.socialMedia__img:hover {
+  box-shadow: 0 0 10px #d2483d;
+  cursor: pointer;
+}
+
+.yummy:hover {
+  text-decoration: underline var(--red-highlight);
+  text-underline-offset: 0.25rem;
+  text-decoration-thickness: 0.188rem;
 }
 
 @media (max-width: 768px) {
